@@ -86,7 +86,7 @@ class AddAssignment extends React.Component {
                     variant="outlined" color="primary" style={{margin: 10}}>
               Return to Assignment List
             </Button>
-            <ToastContainer autoClose={8000} />           
+            <ToastContainer id="Toast" autoClose={8000} />           
           </div>
         ); 
     };
