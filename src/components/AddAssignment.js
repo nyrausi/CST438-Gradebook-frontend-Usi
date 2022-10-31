@@ -80,13 +80,13 @@ class AddAssignment extends React.Component {
             <br/>
             <br/>
             <h3>{this.state.message}</h3>
-            <Button variant="outlined" color="primary" style={{margin: 10}}
-                  onClick={this.handleSubmit} >Submit</Button>
+            <Button variant="outlined" color="primary" id="Submit" style={{margin: 10}}
+                  onClick={this.handleSubmit}>Submit</Button>
             <Button component={Link} to={{pathname:'/'}} 
                     variant="outlined" color="primary" style={{margin: 10}}>
               Return to Assignment List
             </Button>
-            <ToastContainer autoClose={1500} />           
+            <ToastContainer autoClose={8000} />           
           </div>
         ); 
     };
