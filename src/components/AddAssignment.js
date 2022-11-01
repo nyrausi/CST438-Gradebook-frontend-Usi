@@ -79,14 +79,14 @@ class AddAssignment extends React.Component {
                 onChange={this.handleChange} value={this.state.courseId} /> 
             <br/>
             <br/>
-            <h3>{this.state.message}</h3>
+            <h3 id="Msg">{this.state.message}</h3>
             <Button variant="outlined" color="primary" id="Submit" style={{margin: 10}}
                   onClick={this.handleSubmit}>Submit</Button>
             <Button component={Link} to={{pathname:'/'}} 
                     variant="outlined" color="primary" style={{margin: 10}}>
               Return to Assignment List
             </Button>
-            <ToastContainer id="Toast" autoClose={8000} />           
+            <ToastContainer id="Toast" autoClose={2000} />           
           </div>
         ); 
     };
